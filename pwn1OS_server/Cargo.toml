@@ -1,0 +1,22 @@
+[package]
+name = "pwn1OS_server"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+tokio = { version = "1", features = ["full"] }
+warp = "0.3"
+anyhow = "1.0.58"
+base64 = "0.13.0"
+redis = "0.21.5"
+md-5="0.10.0"
+hex = "0.4"
+serde_json = "1.0.83"
+serde_derive = "^1.0.143"
+serde = { version = "1.0.140", features = ["derive"] }
+job_scheduler = "1.2.1"
+log = "0.4.8"
+log4rs = "0.10.0"
